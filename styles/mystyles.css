@@ -2,8 +2,10 @@
    padding-left: 11em;
    font-family: Georgia, "Times New Roman",
           Times, serif;
-		  color: purple;
-    background-color: #d8da3d }
+		  color: rgb(64, 40, 17);
+    background: linear-gradient(rgb(255, 255, 255), rgb(165, 218, 246));
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
 	 ul.navbar {
     list-style-type: none;
     padding: 0;
