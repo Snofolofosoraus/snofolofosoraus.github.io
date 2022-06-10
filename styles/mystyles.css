@@ -5,7 +5,9 @@
 		  color: rgb(64, 40, 17);
     background: linear-gradient(rgb(255, 255, 255), rgb(165, 218, 246));
     background-repeat: no-repeat;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+    margin: 50px;
+  } 
 	 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -13,22 +15,39 @@
 	position: absolute;
     top: 2em;
     left: 1em;
-    width: 10em }
+    width: 10em 
+  }
 	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
+  }
 		ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
+    border-right: 1em solid black 
+  }
   ul.navbar a {
-    text-decoration: none }
+    text-decoration: none 
+  }
   a:link {
-    color: blue }
+    color: blue 
+  }
   a:visited {
-    color: purple }
+    color: purple 
+  }
 	address {
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted;
+  }
+  div {
+    border-style: solid;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(7, 78, 177);
+    float: left;
+    margin: 3em;
+  }
+  a.box_link {
+    color: white;
+  }
